@@ -1,0 +1,12 @@
+---
+- name: It has only one host
+  hosts: my
+
+  tasks:
+  - name: creating user
+    user: name={{item}} shell=/bin/bash state=present
+    with_items:
+    - one
+    - two
+  - name: creating a file
+    file: path=/tmp/all.txt state=touch mode=0777
