@@ -21,4 +21,12 @@
     lineinfile: path=/etc/ntp.conf  line='server0.centos.pool.ntp.org iburst'
   - name: add ntp servers in ntp.conf file2
     lineinfile: path=/etc/ntp.conf  line='server2.centos.pool.ntp.org iburst'
-     
+    notify:
+      restart ntp
+    register: out
+  - name: debug outpu
+    debug: var=out
+  
+  handlers:
+  - name: restart ntp
+    service: name=ntpd state=restarted   

@@ -8,10 +8,10 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
-:q
 :wq
-:w
+:q
 :set nu
+:w
 
 # Search String History (newest to oldest):
 
@@ -38,27 +38,31 @@
 	      - three
 
 # File marks:
-'0  22  2  ~/task3.yml
-'1  23  4  ~/task3.yml
-'2  21  113  ~/task3.yml
-'3  19  54  ~/task3.yml
-'4  24  39  ~/task3.yml
-'5  12  4  ~/first.yml
-'6  24  0  ~/task3.yml
-'7  24  3  ~/task3.yml
-'8  20  3  ~/task3.yml
-'9  15  35  ~/task3.yml
+'0  28  17  ~/task3.yml
+'1  32  28  ~/task3.yml
+'2  30  2  ~/task3.yml
+'3  25  7  ~/task3.yml
+'4  22  2  ~/task3.yml
+'5  23  4  ~/task3.yml
+'6  21  113  ~/task3.yml
+'7  19  54  ~/task3.yml
+'8  29  39  ~/task3.yml
+'9  12  4  ~/first.yml
 
 # Jumplist (newest first):
+-'  28  17  ~/task3.yml
+-'  32  4  ~/task3.yml
+-'  30  2  ~/task3.yml
+-'  25  6  ~/task3.yml
 -'  22  2  ~/task3.yml
 -'  23  4  ~/task3.yml
 -'  21  4  ~/task3.yml
 -'  19  4  ~/task3.yml
 -'  20  3  ~/task3.yml
--'  24  4  ~/task3.yml
+-'  29  4  ~/task3.yml
 -'  12  4  ~/first.yml
 -'  15  4  ~/task3.yml
--'  25  4  ~/task3.yml
+-'  33  4  ~/task3.yml
 -'  9  4  ~/task3.yml
 -'  10  4  ~/task3.yml
 -'  2  0  ~/task3.yml
@@ -144,39 +148,40 @@
 -'  1  0  ~/hosts
 -'  1  0  ~/hosts
 -'  44  10  /etc/ansible/hosts
--'  23  0  /etc/ansible/hosts
--'  1  0  /etc/ansible/hosts
--'  1  0  ~/hosts
 
 # History of marks within files (newest to oldest):
 
 > ~/task3.yml
-	"	22	2
-	^	23	77
-	.	23	48
+	"	28	17
+	^	28	18
+	.	28	17
 	+	2	25
 	+	10	4
 	+	7	10
 	+	6	23
 	+	9	34
 	+	15	3
-	+	25	0
+	+	33	0
 	+	15	12
 	+	13	14
 	+	15	51
 	+	17	32
-	+	24	4
+	+	29	4
 	+	21	14
-	+	24	15
-	+	24	39
+	+	29	15
+	+	29	39
 	+	21	44
 	+	20	0
 	+	19	69
 	+	21	35
 	+	19	54
-	+	24	0
+	+	29	0
 	+	21	77
 	+	23	48
+	+	32	37
+	+	25	5
+	+	32	28
+	+	28	17
 
 > ~/first.yml
 	"	12	4
