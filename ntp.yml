@@ -1,0 +1,5 @@
+---
+- name: Main Play-book with roles
+  hosts: my
+  roles:
+    - ntp

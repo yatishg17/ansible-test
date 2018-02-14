@@ -125,3 +125,127 @@ ansible-doc copy | more
 ansible-doc script | more
 ansible -i myhost my -m script -a "test.sh"
 vim test.sh 
+history
+ansible-galaxy init
+ansible-galaxy init test
+ll
+tree test
+yum install tree
+tree test
+rm -rf test
+ll
+ansible -i myhost my -m ping 
+ansible -i myhost my -m user "name=test state=present"
+ansible -i myhost my -m user "name=test"
+ansible -i myhost my -m user -a "name=test state=present"
+ll
+vim first.yml
+ansible-playbook --syntax-check first.yml 
+vim first.yml 
+ansible-playbook --syntax-check first.yml 
+vim first.yml 
+ansible-playbook --syntax-check first.yml 
+vim first.yml 
+ansible-playbook --syntax-check first.yml 
+ansible-playbook --syntax-check first.yml -i myhost 
+vim first.yml 
+ansible-playbook --syntax-check first.yml -i myhost 
+ansible-playbook --syntax-check --check -i myhost 
+ansible-playbook --check first.yml -i myhost 
+cat first.yml 
+vim first.yml 
+ansible-playbook first.yml -i myhost 
+ansible-playbook first.yml -i myhost --step
+ansible-playbook first.yml -i myhost 
+ansible-doc mysql | more
+ansible-doc -l | grep mysql
+ll
+vim task3.yml
+cat first.yml 
+:q
+vim task3.yml 
+ansible-doc group | more
+vim task3.yml 
+ansible-doc user | more
+vim task3.yml 
+ansible-doc copy | more
+vim task3.yml 
+ansible-playbook task3.yml --syntax-check
+ansible-doc -l | grep inline
+ansible-doc -l | grep linein
+ansible-doc lineinfile | more
+vim task3.yml 
+vim first.yml 
+vim task3.yml 
+vim first.yml 
+vim task3.yml 
+ansible-playbook task3.yml --syntax-check
+ansible-doc lineinfile | more
+vim task3.yml 
+ansible-playbook task3.yml --syntax-check
+ansible-playbook task3.yml --syntax-check -i myhost 
+ansible-playbook task3.yml --check -i myhost 
+ansible-playbook task3.yml -i myhost 
+vim task3.yml 
+ansible-playbook task3.yml -i myhost 
+vim task3.yml 
+ansible-playbook task3.yml -i myhost 
+vim task3.yml 
+ansible-playbook task3.yml -i myhost 
+vim task3.yml 
+yum install git -y
+ll
+rm -rf anaconda-ks.cfg 
+rm -rf original-ks.cfg 
+ll
+rm -rf task3.retry 
+ll
+git init
+ll
+git remote add origin https://github.com/yatishg17/ansible-test.git
+git remote -v
+git status
+git add .
+git commit "initial-plays"
+git status
+git commit "initial"
+git commit .
+git config --global user.email "yatish.g@hotmail.com"
+git config --global user.name "yatishg17"
+git commit .
+git push origin master
+ll
+vim task3.yml 
+
+ansible-playbook task3.yml --syntax-check -i myhost 
+vim task3.yml 
+ansible-playbook task3.yml --syntax-check -i myhost 
+vim task3.yml 
+ansible-playbook task3.yml --syntax-check -i myhost 
+vim task3.yml 
+ansible-playbook task3.yml --syntax-check -i myhost 
+ansible-playbook task3.yml -i myhost 
+ansible-playbook task3.yml -i myhost --step
+vim task3.yml 
+ansible-playbook task3.yml --syntax-check -i myhost 
+ansible-playbook task3.yml -i myhost 
+git status
+git add task3.yml 
+git commit task3.yml "second"
+git commit .
+git status
+git commit .
+git status
+ansible-doc -l | grep -i aws
+pip list
+pip install ansible
+yum install pip
+cd \tmp
+cd /tmp/
+curl -O 'https://bootstrap.pypa.io/get-pip.py'
+ python get-pip.py
+cd -
+pip install
+pip list boto | grep boto
+pip install boto3
+pip list boto | grep boto
