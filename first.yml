@@ -1,6 +1,9 @@
 ---
 - name: It has only one host
   hosts: clients
+  become_user: root
+  become: yes
+  
 
   tasks:
   - name: creating user
