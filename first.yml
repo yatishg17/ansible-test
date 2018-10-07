@@ -1,6 +1,6 @@
 ---
 - name: It has only one host
-  hosts: my
+  hosts: clients
 
   tasks:
   - name: creating user
