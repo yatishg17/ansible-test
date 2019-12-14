@@ -11,5 +11,6 @@
     with_items:
     - one
     - two
+    - three  
   - name: creating a file
     file: path=/tmp/all.txt state=touch mode=0777
