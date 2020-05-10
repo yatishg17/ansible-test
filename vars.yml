@@ -1,0 +1,17 @@
+---
+- name: install telnet package & variables
+  hosts: my
+  vars:
+    telpack: telnet
+    msg: Hello all
+
+  tasks:
+   - name: install telnet package
+     yum: name={{ telpack }} state=present
+   - name: create a file on /etc/motd
+     file: path=/etc/motd state=touch
+   - name: copy the variable on file /etc/motd
+     copy:
+       content: |
+         {{ msg }}; {{ ansible_distribution }} ;ip address is {{ ansible_all_ipv4_addresses }}
+       dest: /etc/motd

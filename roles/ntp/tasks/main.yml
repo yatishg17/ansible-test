@@ -1,0 +1,5 @@
+---
+# tasks file for ntp
+- import_tasks: pkg.yml
+- import_tasks: file.yml
+- import_tasks: service.yml
