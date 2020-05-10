@@ -1,3 +1,0 @@
----
-- name: state the service
-  service: name={{ ntp_service }} state=started 

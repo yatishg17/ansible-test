@@ -1,3 +1,0 @@
----
-- name: install ntp package
-  yum: name={{ ntp_package }} state=present
